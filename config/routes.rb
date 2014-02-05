@@ -1,4 +1,5 @@
 Test020314::Application.routes.draw do
+root 'pages#about'
 get 'pages/about'
 get 'pages/contact'
   # The priority is based upon order of creation: first created -> highest priority.
