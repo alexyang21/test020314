@@ -1,4 +1,7 @@
 Test020314::Application.routes.draw do
+get 'Home' => 'pages#Home'
+get 'About' => 'pages#About'
+root 'pages#Home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
