@@ -1,7 +1,4 @@
 Test020314::Application.routes.draw do
-root 'pages#about'
-get 'about' => 'pagesabout'
-get 'contact' => 'pagescontact'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
